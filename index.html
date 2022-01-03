@@ -2,15 +2,41 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="">
-    <script defer src=""></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    
+    <script defer src="index.js"></script>
 
 </head>
 
 <body>
+    <div class="container">
+
+        <div class="row top-row">
+          <div class="colcol-left">
+            <img src="images/cat-img.jpeg" class="image">
+          </div>
+          <div class="col col-right">
+            <button id="close-button"> X </button>
+            <h1>Cat Facts</h1>
+            <p>(Display 5 cat facts here)</p>
+            <button id="get-facts"> Get Facts </button>
+          </div>
+        
+        </div>
+
+        <div class="row">
+            <div id="facts-container">
+                <ul id="fact-ul">
+                    
+                </ul>
+            </div>
+        </div>
+      </div>
 
     
-
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
