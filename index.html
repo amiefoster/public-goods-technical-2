@@ -1,42 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+
     <script defer src="index.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container" id="pop-up">
-
-        <div class="row top-row">
-          <div class="colcol-left">
-            <img src="images/cat-img.jpeg" class="image">
-          </div>
-          <div class="col col-right">
-            <button id="close-button"> X </button>
-            <h1>Cat Facts</h1>
-            <p>(Display 5 cat facts here)</p>
-            <button id="get-facts"> Get Facts </button>
-          </div>
-        
+      <div class="row top-row">
+        <div class="colcol-left">
+          <img src="images/cat-img.jpeg" class="image" />
         </div>
+        <div class="col col-right">
+          <div id="close-button">X</div>
+          <h1>Cat Facts</h1>
+          <div id="facts-container">
+            <ul id="fact-ul"></ul>
+          </div>
 
-        <div class="row">
-            <div id="facts-container">
-                <ul id="fact-ul">
-                    
-                </ul>
-            </div>
+          <div id="get-facts">Get Facts</div>
         </div>
       </div>
+    </div>
 
-    
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
