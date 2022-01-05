@@ -1,18 +1,62 @@
+* {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#pop-up {
+    margin: 50px 10px 10px 10px;
+}
 
 .image {
-    max-height: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin: -10px 0px 0px -190px;
 }
 
 #get-facts {
-    background-color: black ;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  top: 400px;
+  position: absolute;
 }
 
 #close-button {
-    cursor: pointer;
-    padding: 10px;
-    width: 300px;
+  cursor: pointer;
+  padding: 10px;
+  width: 300px;
+  text-align: right;
+  padding-right: 15px;
+}
 
+.close-button-container {
+  justify-content: right;
+}
+
+.col-left {
+  width: 250px;
+  overflow: hidden;
+  border: black 2px solid;
+}
+
+.col-right {
+  padding: 10px 30px 15px 30px;
+  
+}
+
+#facts-container {
+  min-height: 350px;
+}
+
+li {
+  list-style-type: circle;
+  font-size: small;
+}
+
+.border {
+  border: red 1px solid;
 }
